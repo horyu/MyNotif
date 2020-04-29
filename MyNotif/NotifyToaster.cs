@@ -5,9 +5,9 @@ namespace MyNotif
 {
     class NotifyToaster
     {
-        // AppUserModelID 付箋を使用
+        // AppUserModelID PCを使用
         // 確認方法 https://www.ka-net.org/blog/?p=6250
-        private const string APP_ID = "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App";
+        private const string APP_ID = "Microsoft.Windows.Computer";
         private readonly XmlDocument OriXML = new XmlDocument();
         private readonly char[] N = { '\n' };
 
