@@ -14,7 +14,7 @@ namespace MyNotif
     public class NetInfo
     {
         public readonly string IP;
-        public readonly int Port = 55554;
+        public readonly int Port = 45654;
 
         public NetInfo()
         {
